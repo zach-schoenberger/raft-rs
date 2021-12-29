@@ -1,6 +1,6 @@
 [package]
 name = "raft-proto"
-version = "0.6.0"
+version = "0.9.0"
 authors = ["The TiKV Project Developers"]
 edition = "2018"
 license = "Apache-2.0"
@@ -23,5 +23,5 @@ protobuf-build = { version = "0.12", default-features = false }
 [dependencies]
 bytes = { version = "1", optional = true }
 lazy_static = { version = "1", optional = true }
-prost = { version = "0.7", optional = true }
+prost = { version = "0.9", optional = true }
 protobuf = "2"
